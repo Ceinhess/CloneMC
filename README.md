@@ -1,1 +1,2 @@
 # CloneMC
+min ecratf
