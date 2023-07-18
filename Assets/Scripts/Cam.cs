@@ -22,11 +22,11 @@ public class Cam : MonoBehaviour
 
     [Header("Controls")]
 
-    public KeyCode Forwards = KeyCode.W;
+    public KeyCode Forwards = KeyCode.Z;
     public KeyCode Backwards = KeyCode.S;
-    public KeyCode Left = KeyCode.A;
+    public KeyCode Left = KeyCode.Q;
     public KeyCode Right = KeyCode.D;
-    public KeyCode Up = KeyCode.Q;
+    public KeyCode Up = KeyCode.A;
     public KeyCode Down = KeyCode.E;
 
     private Vector3 _moveSpeed;

@@ -44,6 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44993477693dbdc4fa22c45b84fb07e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CubePrefab: {fileID: 99788859675806912, guid: 56a18a313cf110d44a0f6405af6ee180, type: 3}
+  Color: {fileID: 2100000, guid: 8a2b6d1b66d88c94bb969170359e330b, type: 2}
   Orientation: {x: 0, y: 0, z: 0, w: 0}
   Position: {x: 0, y: 0, z: 0}
+  State: Initiating
