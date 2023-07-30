@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5166239419930551876}
   - component: {fileID: -3803547612339758783}
+  - component: {fileID: 1719979991799189260}
   m_Layer: 0
   m_Name: Chunk
   m_TagString: Untagged
@@ -47,4 +48,27 @@ MonoBehaviour:
   Color: {fileID: 2100000, guid: 8a2b6d1b66d88c94bb969170359e330b, type: 2}
   Orientation: {x: 0, y: 0, z: 0, w: 0}
   Position: {x: 0, y: 0, z: 0}
+  shape: {fileID: 0}
   State: Initiating
+--- !u!64 &1719979991799189260
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1403533843931796756}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 1
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}

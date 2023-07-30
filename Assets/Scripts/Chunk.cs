@@ -18,7 +18,8 @@ public class Chunk : MonoBehaviour
     [SerializeField]
     public Vector3 Position;
 
-    private Mesh shape;
+    [SerializeField]
+    public Mesh shape;
 
     private int faceNumber = 6;
 
@@ -166,6 +167,8 @@ public class Chunk : MonoBehaviour
         shape.triangles = triangles.ToArray();
 
         shape.RecalculateNormals();
+
+        this.gameObject.GetComponent<MeshCollider>().sharedMesh = shape;
         
     }
 
